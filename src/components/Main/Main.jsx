@@ -1,8 +1,11 @@
 import React, { Component } from "react";
+import List from './List';
 
 class Main extends Component {
   render() {
-    return <div>Main</div>;
+    return <main>
+      <List />
+    </main>;
   }
 }
 
